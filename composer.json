@@ -1,0 +1,27 @@
+{
+    "name": "tingyu/wx_code_openid",
+    "description": "微信code码获取openid",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tingyu",
+            "email": "qiuyix@sina.cn"
+        }
+    ],
+    "repositories": {
+        "local":{
+            "type": "path",
+            "url": "../http_request"
+        }
+    },
+    "require": {
+        "php": "7.3.*",
+        "tingyu/http_request": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "tingyu\\WXCodeOpenid\\": "src/"
+        }
+    }
+}
